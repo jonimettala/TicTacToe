@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="wtf.joni.tictactoe.MainActivity"
+    android:gravity="center">
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:baselineAligned="false"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="clickB1"
+            android:textSize="50sp"/>
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="clickB2"
+            android:textSize="50sp"/>
+
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="clickB3"
+            android:textSize="50sp"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:baselineAligned="false"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/b4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="clickB4"
+            android:textSize="50sp"/>
+
+        <Button
+            android:id="@+id/b5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="clickB5"
+            android:textSize="50sp"/>
+
+        <Button
+            android:id="@+id/b6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="clickB6"
+            android:textSize="50sp"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:baselineAligned="false"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/b7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="clickB7"
+            android:textSize="50sp"/>
+
+        <Button
+            android:id="@+id/b8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="clickB8"
+            android:textSize="50sp"/>
+
+        <Button
+            android:id="@+id/b9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="clickB9"
+            android:textSize="50sp"/>
+    </TableRow>
+    <TextView
+        android:id="@+id/whoseTurnText"
+        android:text="X's turn"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <Button
+        android:id="@+id/newGame"
+        android:text="New Game"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:onClick="newGame" />
+</TableLayout>
